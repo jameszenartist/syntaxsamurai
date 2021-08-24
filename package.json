@@ -1,0 +1,23 @@
+{
+  "name": "syntaxsamurai",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameszenartist/syntaxsamurai.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "James Hansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameszenartist/syntaxsamurai/issues"
+  },
+  "homepage": "https://github.com/jameszenartist/syntaxsamurai#readme"
+}

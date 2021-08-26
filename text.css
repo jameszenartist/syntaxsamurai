@@ -487,6 +487,10 @@ body {
     height: auto;
   }
   body .nav-container {
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
     width: 100%;
     margin: auto;
     display: -webkit-box;
@@ -534,6 +538,13 @@ body {
 }
 
 @media only screen and (max-width: 1100px) {
+  .nav-container {
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+  }
+
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -624,6 +635,10 @@ body {
     height: auto;
   }
   body .nav-container {
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
     width: 100%;
     margin: auto;
     display: -webkit-box;
@@ -639,7 +654,8 @@ body {
   }
   body .nav-container .nav-list {
     width: 100%;
-    padding: 0 1rem;
+    margin: 0;
+    padding: 0 0.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -665,6 +681,11 @@ body {
     width: 100%;
     height: auto;
   }
+
+  body .container h1 {
+    margin: 2rem;
+  }
+
   body .container .form-container .contact-container {
     word-wrap: break-word;
   }
@@ -681,6 +702,7 @@ body {
     flex-direction: column;
     word-wrap: break-word;
     margin: auto;
+    padding: 1rem;
   }
   body .container .form-container .contact-container .icons-container {
     display: -webkit-box;
@@ -709,9 +731,6 @@ body {
     border: 2px solid #03a062;
     -webkit-filter: brightness(1);
     filter: brightness(1);
-  }
-  body .container h1 {
-    margin: 2rem;
   }
 }
 
@@ -786,11 +805,31 @@ body {
     flex-direction: column;
     margin-top: 2rem;
   }
+
+  h1 {
+    display: flex;
+    margin: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .container section,
+  .container .about,
+  .container .projects,
+  .container .contact {
+    width: 90%;
+    height: auto;
+    margin: 2rem;
+  }
+
   body .container .about p {
     word-wrap: break-word;
   }
+
   body .container h2 {
+    width: 100%;
     margin-top: 320px;
+    text-align: center;
+    font-size: 1.5rem;
   }
   #home > div > section.contact > div > div > div > div:nth-child(1) > div {
     display: -webkit-box;
@@ -818,6 +857,10 @@ body {
     width: 100%;
     margin: auto;
   }
+
+  .container .contact .contact-container p {
+    padding: 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 380px) {
@@ -837,6 +880,8 @@ body {
     background: black;
   }
   body .container {
+    width: 100%;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -848,19 +893,41 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  body .container h1 {
-    text-align: center;
-    font-size: 1.5rem;
-    width: 100%;
+
+  .container .about {
+    margin: auto;
   }
+
+  body .container h1 {
+    display: flex;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 80%;
+  }
+
+  section,
+  .about,
+  .projects,
+  .contact {
+    width: 100%;
+    height: auto;
+  }
+
   body .container section,
   body .container .contact {
+    margin: auto;
     width: 90%;
   }
   body .container h2 {
-    margin-top: 220px;
+    margin-top: 220px auto auto auto;
     text-align: center;
     font-size: 1.5rem;
     width: 100%;
+  }
+
+  .contact-container p,
+  form p {
+    margin: auto;
+    word-wrap: break-word;
   }
 }

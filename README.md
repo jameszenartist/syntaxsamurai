@@ -4,8 +4,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/44a44204-71cc-445f-8295-4aaa8a8f49db/deploy-status)](https://app.netlify.com/sites/syntaxsamurai/deploys)
 
-Currently, this is my second official website that I have built.
-As for the content, I have decided to showcase my new budding career, projects, skills, and progressive development as a Full Stack Developer.
+### Welcome to my software development portfolio!
+
+I decided it was about time to showcase my new budding career, projects, skills, and progressive development as a Full Stack Developer. I also thought I'd use this project to sharpen my CSS, Responsive Design, and begin practicing with the [live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) in VS Code. As I'm learning how to use [Netlify](https://www.netlify.com/), I thought it would be a good time to practice some optimization by using minified files.
 
 ### syntaxsamurai.com
 

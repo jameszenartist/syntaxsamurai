@@ -107,6 +107,28 @@ body {
   margin: 1rem 0;
 }
 
+h1.type-me {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 14ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #03a062;
+  animation: typing 4s steps(14), caret 1s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
 .container section {
   width: 50%;
   display: -webkit-box;

@@ -501,14 +501,25 @@ h1.type-me {
   color: #03a062;
 }
 
-[class^="fa"] {
+[class^="fa"],
+.gift {
   margin: 0.25em;
   background: #03a062;
   color: #03a062;
 }
 
-[class^="fa"]:hover {
+[class^="fa"]:hover,
+.gift:hover {
   opacity: 0.6;
+}
+
+.gift {
+  border: 2px solid #03a062;
+  border-radius: 6px;
+}
+
+.gift span img {
+  padding: 0.15rem;
 }
 
 ::-webkit-scrollbar {

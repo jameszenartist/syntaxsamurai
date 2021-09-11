@@ -255,18 +255,17 @@ body {
   margin: 2rem;
 }
 
-.container #projects div,
-.container .about div,
-.container #about div,
-.container #contact div {
+.container .about div {
   border: 3px solid #27ff27;
   border-radius: 3px;
 }
 
-.container #projects div div.overlay,
-.container .about div div.overlay,
-.container #about div div.overlay,
-.container #contact div div.overlay {
+.about > div,
+.form-container {
+  box-shadow: 0 0 1em #27ff27;
+}
+
+.container .about div div.overlay {
   width: 30%;
   height: auto;
   margin: 1rem auto;

@@ -10,13 +10,13 @@
       content="Full Stack Developer's Website for Projects"
     />
     <title>syntaxsamurai.com</title>
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="shortcut icon"
       href="https://img.icons8.com/ios-glyphs/20/27ff27/samurai-helmet.png"
       type="image/x-icon"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -52,13 +52,19 @@
       </ul>
     </nav>
     <div class="container">
-      <section class="home">
+      <section class="home" data-tilt>
         <h1 class="type-me">SyntaxSamurai</h1>
       </section>
 
       <div id="about"></div>
 
-      <section class="about" data-aos="fade-up" data-aos-duration="3000">
+      <section
+        class="about"
+        data-tilt
+        data-tilt-max="2"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <h2>#About Me:</h2>
         <div>
           <div class="overlay">
@@ -118,7 +124,7 @@
         <h2>#Projects:</h2>
         <div class="card-container">
           <div class="row">
-            <div class="card">
+            <div class="card" data-tilt>
               <p>James Hansen Paintings</p>
               <a
                 href="https://jameszenartist.github.io/jameshansenpaintings/index.html"
@@ -135,7 +141,7 @@
               </a>
             </div>
 
-            <div class="card">
+            <div class="card" data-tilt>
               <p>Github Profile</p>
               <a href="https://github.com/jameszenartist" target="_blank">
                 <img
@@ -154,7 +160,13 @@
 
       <div id="contact"></div>
 
-      <section class="contact" data-aos="fade-up" data-aos-duration="3000">
+      <section
+        class="contact"
+        data-tilt
+        data-tilt-max="2"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <h2>#Contact:</h2>
         <div>
           <div class="form-container">
@@ -278,8 +290,6 @@
       <h5>Copyright &copy 2021, SyntaxSamurai</h5>
     </footer>
 
-    <!-- <script src="main.js"></script> -->
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
@@ -302,5 +312,11 @@
         anchorPlacement: "top-bottom",
       });
     </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
+      integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>

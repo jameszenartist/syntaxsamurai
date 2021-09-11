@@ -277,10 +277,7 @@ body {
   justify-content: flex-end;
 }
 
-.container #projects div div.overlay img,
-.container .about div div.overlay img,
-.container #about div div.overlay img,
-.container #contact div div.overlay img {
+.overlay img {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;

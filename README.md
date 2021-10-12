@@ -40,7 +40,7 @@ This project is licensed under the [MIT License](https://github.com/this/project
 ## Get Help
 
 - Contact me on jameszenartist@gmail.com
-- If appropriate, [open an issue](https://github.com/jameshansenpaintings/issues) on GitHub
+- If appropriate, [open an issue](https://github.com/jameszenartist/syntaxsamurai/issues) on GitHub
 
 ## Motivation
 

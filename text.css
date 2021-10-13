@@ -294,6 +294,7 @@ body {
 .container #contact div p {
   line-height: 1.5rem;
   padding: 2rem;
+  font-weight: 100;
 }
 
 .container .contact {
@@ -329,6 +330,7 @@ body {
 .container .contact .form-container p {
   text-align: left;
   padding: 1rem;
+  font-weight: 100;
 }
 
 .container .contact .form-container form {
@@ -357,6 +359,7 @@ body {
   font-family: "Press Start 2P";
   font-size: 1rem;
   border-radius: 2px;
+  font-weight: 100;
 }
 
 .container .contact .form-container form input {
@@ -375,6 +378,7 @@ body {
 
 .container .contact .form-container form p {
   line-height: 1.5rem;
+  font-weight: 100;
 }
 
 .container .contact .form-container form textarea {
@@ -390,6 +394,7 @@ body {
   outline: none;
   color: #27ff27;
   font-size: 1rem;
+  font-weight: 100;
 }
 
 .container .contact .form-container form textarea:hover,
@@ -413,6 +418,7 @@ body {
   -webkit-box-shadow: inset 0 0 0.5em 0 #27ff27, 0 0 0.5em 0 #27ff27;
   box-shadow: inset 0 0 0.5em 0 #27ff27, 0 0 0.5em 0 #27ff27;
   font-family: "Press Start 2P";
+  font-weight: 100;
 }
 
 .container .contact .form-container form button:hover {
@@ -493,6 +499,11 @@ body {
   justify-content: center;
 }
 
+.icons p,
+.icons-container p {
+  font-weight: 100;
+}
+
 body footer {
   width: 100%;
   height: 100%;
@@ -502,6 +513,7 @@ body footer {
   border-top: 1px solid #27ff27;
   text-align: center;
   font-size: 1.25rem;
+  font-weight: 100;
 }
 
 ::-webkit-scrollbar-thumb {

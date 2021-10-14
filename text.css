@@ -953,7 +953,7 @@ body footer {
     height: auto;
   }
 
-  #home > div > section.contact > div > div > div > div:nth-child(1) > div {
+  section.contact > div > div > div > div:nth-child(1) > div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

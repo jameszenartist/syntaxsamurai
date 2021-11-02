@@ -6,11 +6,11 @@
 
 ### Welcome to my software development portfolio!
 
-I decided it was about time to showcase my new budding career, projects, skills, and progressive development as a Full Stack Developer. I also thought I'd use this project to sharpen my CSS, Responsive Design, and begin practicing with the [live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) in VS Code. As I'm learning how to use [Netlify](https://www.netlify.com/), I thought it would be a good time to practice some optimization by using minified files.
+I decided it was about time to showcase my new budding career, projects, skills, and progressive development as a Full Stack Developer. I also thought I'd use this project to sharpen my HTML/CSS/Javascript, UI/UX Design, and practice with all the various tools in VS Code.
 
 ### syntaxsamurai.com
 
-I can assure you that UI/UX design, JS functionality, and server side changes/updates will be implemented as soon as I can! I also fully intend on using this as an opportunity to learn about and incorporate the use of new tools and languages, as well as various Javascript libraries, like vanilla-tilt.js, AOS.js, and Pixi.js.
+I can assure you that UI/UX design, JS functionality, and server side changes/updates are perpetually being integrated as much as I can! I also fully intend on using this as an opportunity to learn about and incorporate the use of new tools, languages, as well as various Javascript libraries; like vanilla-tilt.js, AOS.js, and Pixi.js.
 
 ## Table of contents:
 

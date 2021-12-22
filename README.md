@@ -6,11 +6,11 @@
 
 ### Welcome to my software development portfolio!
 
-I decided it was about time to showcase my new budding career, projects, skills, and progressive development as a Full Stack Developer. I also thought I'd use this project to sharpen my HTML/CSS/Javascript, UI/UX Design, and practice with all the various tools in VS Code.
+I decided it was about time to showcase my new budding career, projects, skills, and progressive development as a Full Stack Developer.
 
-### syntaxsamurai.com
+## [syntaxsamurai.com](https://syntaxsamurai.com/)
 
-I can assure you that UI/UX design, JS functionality, and server side changes/updates are perpetually being integrated as much as I can! I also fully intend on using this as an opportunity to learn about and incorporate the use of new tools, languages, as well as various Javascript libraries; like vanilla-tilt.js, AOS.js, and Pixi.js.
+I can assure you that UI/UX design, JS functionality, and server side changes/updates are perpetually being integrated as much as I can!
 
 ## Table of contents:
 
@@ -23,7 +23,7 @@ I can assure you that UI/UX design, JS functionality, and server side changes/up
 
 ## Built With
 
-Currently with just HTML, CSS/SASS, VS Code, and Netlify for the front end.
+Currently with just HTML/CSS/SASS, VS Code, and Netlify for the front end.
 
 ## Issues
 

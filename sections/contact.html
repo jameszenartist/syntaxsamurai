@@ -6,5 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="contact"></div>
+
+    <section class="contact" data-aos="fade-up" data-aos-duration="3000">
+      <h2>#Contact:</h2>
+      <div>
+        <div class="form-container">
+          <p>
+            Have a question or just want to say hi? Let’s talk!
+            <br />
+            <br />
+            I'll try my best to get back to you as soon as I can.
+            <br />
+            <br />
+            If you want to know more, please don't hesitate to ask!
+            <br />
+            <br />
+          </p>
+
+          <form name="contact" method="POST" data-netlify="true">
+            <label for="firstname">First name:</label>
+            <input
+              type="text"
+              name="firstname"
+              size="20"
+              placeholder="Enter your first name"
+              required
+              aria-required="true"
+            />
+
+            <label for="lastname">Last name:</label>
+            <input
+              type="text"
+              name="lastname"
+              size="20"
+              placeholder="Enter your last name"
+              required
+              aria-required="true"
+            />
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              name="email"
+              size="20"
+              placeholder="Enter your email"
+              required
+              aria-required="true"
+            />
+
+            <p>Any Comments or Suggestions?</p>
+            <p>
+              Please feel free to contact me via email or drop a line in the
+              contact form:
+            </p>
+            <br />
+
+            <textarea
+              name="comments"
+              placeholder="Enter your comment here..."
+            ></textarea>
+            <br />
+            <br />
+            <button type="submit">Submit</button>
+          </form>
+
+          <div class="contact-container">
+            <div class="icons-container">
+              <p>You can contact me using:</p>
+              <div class="icons">
+                <a
+                  href="https://www.facebook.com/jameszenartist"
+                  target="_blank"
+                  ><span><i class="fa fa-facebook fa-3x"></i></span
+                ></a>
+                <a href="https://twitter.com/JamesHa58376283" target="_blank"
+                  ><span><i class="fa fa-twitter fa-3x"></i></span
+                ></a>
+                <a
+                  href="https://www.instagram.com/jameszenartist/"
+                  target="_blank"
+                  ><span><i class="fa fa-instagram fa-3x"></i></span
+                ></a>
+                <a href="https://github.com/jameszenartist" target="_blank"
+                  ><span><i class="fa fa-github fa-3x"></i></span
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/jameshansen1981/"
+                  target="_blank"
+                  ><span><i class="fa fa-linkedin fa-3x"></i></span
+                ></a>
+              </div>
+            </div>
+
+            <div class="icons-container">
+              <p>Donations? Click HERE:</p>
+
+              <div class="donations">
+                <div class="icons">
+                  <a
+                    class="gift"
+                    href="https://www.buymeacoffee.com/jameshansen1981?fbclid=IwAR350I6Pp1bnQHtdE62NzNOxle11x0bGZVXJNjXLJm00_SmmtHBhCOz1qhQ"
+                    target="_blank"
+                  >
+                    <span
+                      ><img
+                        src="https://img.icons8.com/ios/50/03a062/coffee--v2.png"
+                        alt="icons8 coffee animated png" /></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <p>
+              Remotely available at: <br />
+              <br />
+              jameszenartist@gmail.com
+              <br />
+              <br />
+              Current location: Bend, OR
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

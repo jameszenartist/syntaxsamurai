@@ -237,7 +237,7 @@
   
     .gift {
       margin: auto;
-      background-color: black;
+      background-color: var(--main-bk);
     }
     form input {
       width: 90%;

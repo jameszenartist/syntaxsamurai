@@ -1,0 +1,349 @@
+@media only screen and (max-width: 380px) {
+  body {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    background: black;
+  }
+
+  .nav-container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    width: 100%;
+    margin: auto;
+  }
+  .nav-list li {
+    width: 70%;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #about {
+    margin: auto;
+  }
+
+  .container h1 {
+    display: flex;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 80%;
+    justify-content: center;
+  }
+
+  section,
+  #about,
+  #projects,
+  #contact {
+    width: 100%;
+    height: auto;
+  }
+
+  .container section,
+  #contact {
+    margin: auto;
+    width: 90%;
+  }
+
+  .container h2 {
+    margin-top: 0.25rem;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 100%;
+    display: flex;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container p,
+  form p {
+    margin: auto;
+    word-wrap: break-word;
+  }
+
+  footer {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background: black;
+  }
+
+  
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #home h1 {
+    width: 100%;
+    display: flex;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .container section,
+  #about,
+  #projects,
+  #contact {
+    width: 70%;
+    height: auto;
+    margin: 2rem;
+  }
+
+  #about p {
+    word-wrap: break-word;
+  }
+
+  .container h2 {
+    width: 100%;
+    margin-top: 0.25rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    body {
+      width: 100%;
+      height: auto;
+    }
+  
+    #home {
+      margin: 5% auto 40% auto;
+    }
+    .nav-container {
+      top: 0;
+      position: -webkit-sticky;
+      position: sticky;
+      z-index: 1;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .nav-list {
+      width: 100%;
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+  
+    .container h1 {
+      margin: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .nav-container {
+      top: 0;
+      position: -webkit-sticky;
+      position: sticky;
+      z-index: 1;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+  
+    #home {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      margin: 5% auto 60% auto;
+    }
+  
+    h1 {
+      font-size: 2rem;
+      margin: auto;
+      text-align: center;
+    }
+  
+    .card-container .row,
+    .card {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .contact-container {
+      word-wrap: break-word;
+    }
+    .contact-container p {
+      width: 90%;
+      line-height: 1.5rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      word-wrap: break-word;
+      margin: auto;
+    }
+    .icons-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .gift {
+      margin: auto;
+      background-color: black;
+    }
+    form input {
+      width: 90%;
+    }
+    form input:focus,
+    form input:hover {
+      outline: none;
+      width: 90%;
+      border: 2px solid #27ff27;
+      -webkit-filter: brightness(1);
+      filter: brightness(1);
+    }
+    .container h1 {
+      margin: 2rem;
+    }
+    .icons * {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media only screen and (max-width: 769px) {
+    body {
+      width: 100%;
+      height: auto;
+    }
+    .nav-container {
+      position: relative;
+  
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .nav-list {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20%;
+      width: 100%;
+      margin: auto;
+    }
+  
+    .nav-list li {
+      width: 50%;
+    }
+    .nav-list li p a {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+  
+    body .container h1 {
+      margin: 2rem;
+    }
+  
+    #home,#about,#projects,#contact {
+      width: 50%;
+      height: auto;
+    }
+  
+    .contact-container {
+      word-wrap: break-word;
+    }
+    .contact-container p {
+      width: 90%;
+      line-height: 1.5rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      word-wrap: break-word;
+      margin: auto;
+      padding: 1rem;
+    }
+  .icons-container {
+      display: -webkit-box;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+    }
+    form input {
+      width: 90%;
+    }
+    form input:focus,
+    form input:hover {
+      outline: none;
+      width: 90%;
+      border: 2px solid #27ff27;
+      -webkit-filter: brightness(1);
+      filter: brightness(1);
+    }
+  }  
+
+  footer {
+    margin-top: 1rem;
+  }
+}

@@ -9,8 +9,10 @@
       name="software developer's portfolio website"
       content="Full Stack Developer's Website for Projects"
     />
-    <title>syntaxsamurai.com</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <link
       rel="shortcut icon"
       href="https://img.icons8.com/ios-glyphs/20/27ff27/samurai-helmet.png"
@@ -26,13 +28,13 @@
     />
     <link rel="stylesheet" href="/css/preloader.css" />
     <link rel="stylesheet" href="/css/stars.css" />
-    <link rel="stylesheet" href="/css/text.css" />
-
     <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/text.css" />
     <!-- <link rel="stylesheet" href="/css/about.css" />
     <link rel="stylesheet" href="/css/projects.css" />
     <link rel="stylesheet" href="/css/contact.css" /> -->
     <!-- <link rel="stylesheet" href="/css/media-queries.css" /> -->
+    <title>syntaxsamurai.com</title>
 
     <script src="/js/preloader.js"></script>
   </head>
@@ -60,12 +62,61 @@
     <div id="stars2"></div>
     <div id="stars3"></div>
 
-    <div class="container" id="home">
-      <section class="home">
-        <h1>SyntaxSamurai</h1>
-      </section>
+    <div class="header">
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="container">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div id="link1" class="swiper-slide">
+            <section class="home">
+              <h1>SyntaxSamurai</h1>
+            </section>
+          </div>
+          <div id="link2" class="swiper-slide">
+            <section class="about">
+              <h1>ABOUT SECTION</h1>
+            </section>
+          </div>
+          <div id="link3" class="swiper-slide">
+            <section class="projects">
+              <h1>PROJECTS SECTION</h1>
+            </section>
+          </div>
+          <div id="link4" class="swiper-slide">
+            <section class="contact">
+              <h1>CONTACT SECTION</h1>
+            </section>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <h5>Copyright © 2022, SyntaxSamurai</h5>
+      </footer>
     </div>
 
     <script src="./js/main.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (
+            index,
+            className = "link swiper-pagination-bullet"
+          ) {
+            let links = ["Home", "About", "Projects", "Contact"];
+
+            return '<a class="' + className + '">' + links[index] + "</a>";
+          },
+        },
+      });
+    </script>
   </body>
 </html>

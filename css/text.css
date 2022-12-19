@@ -1,69 +1,47 @@
 :root {
-  --main-bk: rgba(0,0,0,0);
   --main-gn: #27ff27;
 }
 
-* {
+*,*:before,*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: var(--main-gn);
-  background: black;
   text-decoration: none;
 }
 
-*:before {
+body{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  color: var(--main-gn);
-  background: black;
-  text-decoration: none;
+  width: 100%;
+  height: 100vh;
+  place-items: center;
+  overflow: hidden;
 }
-
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: var(--main-gn);
-  background: black;
-  text-decoration: none;
-}
-
 
 body, .wrapper {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
   font-family: "Press Start 2P", cursive, sans-serif;
   background-color: black;
-  overflow: hidden;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
 }
 
 .container {
   margin: 0;
   padding: 0;
-  width: 100vh;
-  height: 100vw;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-
-}
-
-#home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  font-size: 1.25rem;
 }
 
 #home h1 {
   text-align: center;
-  margin: 0;
+  margin: 2rem 0;
   opacity: 0;
 }
 
@@ -75,27 +53,14 @@ body, .wrapper {
   animation: typing 4s steps(14), caret 1s steps(1) infinite;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 50%;
-  }
-}
 
-@keyframes caret {
-  50% {
-    border-right-color: transparent;
-  }
-}
 
-#home,#about,#projects,#contact {
+/* #home,#about,#projects,#contact {
   width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 section h2 {
   width: 100%;
@@ -123,9 +88,24 @@ section h2 {
   font-weight: 100;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
 footer {
+  position: absolute;;
   width: 100%;
-  height: 100%;
   left: 0;
   bottom: 0;
   padding: 10px 0;
@@ -133,14 +113,4 @@ footer {
   text-align: center;
   font-size: 1.25rem;
   font-weight: 100;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #27ff27;
-  color: #27ff27;
-}
-
-::-webkit-scrollbar {
-  width: 2px;
-  color: #27ff27;
 }

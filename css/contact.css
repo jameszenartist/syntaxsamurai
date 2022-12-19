@@ -77,12 +77,12 @@
   filter: brightness(1);
 }
 
-.container .contact .form-container form p {
+.form-container form p {
   line-height: 1.5rem;
   font-weight: 100;
 }
 
-.container .contact .form-container form textarea {
+.form-container form textarea {
   text-align: left;
   padding: 1rem;
   line-height: 1.5rem;
@@ -98,14 +98,14 @@
   font-weight: 100;
 }
 
-.container .contact .form-container form textarea:hover,
-.container .contact .form-container form textarea:focus {
+.form-container form textarea:hover,
+.form-container form textarea:focus {
   border: 2px solid #27ff27;
   -webkit-filter: brightness(1);
   filter: brightness(1);
 }
 
-.container .contact .form-container form button {
+.form-container form button {
   display: block;
   margin: auto;
   cursor: pointer;
@@ -122,17 +122,17 @@
   font-weight: 100;
 }
 
-.container .contact .form-container form button:hover {
+.form-container form button:hover {
   color: rgba(3, 160, 98, 0.2);
   -webkit-transition: 100ms linear;
   transition: 100ms linear;
 }
 
-.container .contact .form-container form button:focus {
+.form-container form button:focus {
   color: #27ff27;
 }
 
-.container .contact .contact-container {
+.contact-container {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

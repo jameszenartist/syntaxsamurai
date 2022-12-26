@@ -1,7 +1,7 @@
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     window.onload();
-    let content = document.getElementById("home");
+    let content = document.getElementById("load");
     let wrapper = document.querySelector(".wrapper");
     wrapper.classList.add("fadeaway");
     setTimeout(() => {

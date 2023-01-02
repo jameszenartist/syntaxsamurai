@@ -34,16 +34,39 @@ body, .wrapper {
   padding: 0;
   width: 100%;
   height: 100%;
+}
+
+section {
+  margin: 2rem 0;
+  width: 90%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#home h1 {
-  text-align: center;
-  margin: 2rem 0;
-  opacity: 0;
+.home h1 {
+  font-size: 2rem;
+
 }
+
+
+
+
+
+/* .projects,
+.about,
+.contact {
+  margin: 2rem;
+} */
+
+/* .projects p,
+.about p,
+.contact p {
+  line-height: 1.5rem;
+  padding: 2rem;
+  font-weight: 100;
+} */
 
 .type-me {
   opacity: 1;
@@ -54,15 +77,6 @@ body, .wrapper {
   animation: typing 4s steps(14), caret 1s steps(1) infinite;
 }
 
-
-
-/* #home,#about,#projects,#contact {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-} */
-
 section h2 {
   width: 100%;
   display: inline-block;
@@ -71,23 +85,6 @@ section h2 {
   margin-top: 1rem;
 }
 
-#about div p {
-  word-wrap: break-word;
-}
-
-#projects,
-#about,
-#contact {
-  margin: 2rem;
-}
-
-#projects div p,
-#about div p,
-#contact div p {
-  line-height: 1.5rem;
-  padding: 2rem;
-  font-weight: 100;
-}
 
 @keyframes typing {
   from {

@@ -41,15 +41,18 @@
     <link rel="stylesheet" href="/css/stars.css" />
     <link rel="stylesheet" href="/css/nav.css" />
     <link rel="stylesheet" href="/css/text.css" />
-    <link rel="stylesheet" href="/css/blazer.css" />
-
-    <!-- <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/about.css" />
     <link rel="stylesheet" href="/css/projects.css" />
-    <link rel="stylesheet" href="/css/contact.css" /> -->
-    <!-- <link rel="stylesheet" href="/css/media-queries.css" /> -->
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/swiper.css" />
+
+    <!-- 
+    
+    
+    <link rel="stylesheet" href="/css/media-queries.css" /> -->
     <link
       rel="stylesheet"
-      href="https://unpkg.com/blaze-slider@1.9.0-beta.2/dist/blaze.css"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
     <title>syntaxsamurai.com</title>
     <script src="/js/preloader.js"></script>
@@ -78,67 +81,382 @@
     <div id="stars2"></div>
     <div id="stars3"></div>
 
-    <nav class="nav-container">
-      <ul class="nav-list">
-        <li>
-          <p><a href="#home" class="neon-button">Home</a></p>
-        </li>
-        <li>
-          <p><a href="#about" class="neon-button">About</a></p>
-        </li>
-        <li>
-          <p><a href="#projects" class="neon-button">Projects</a></p>
-        </li>
-        <li>
-          <p><a href="#contact" class="neon-button">Contact</a></p>
-        </li>
-      </ul>
-    </nav>
+    <div class="nav-container header">
+      <div class="nav-list swiper-pagination links swiper-pagination-links">
+        
+      </div>
+    </div>
     <div class="container">
-      <!-- blazer test example -->
+      <div class="content">
+        <!-- Swiper -->
 
-      <div class="App">
-        <div class="blaze-slider my-slider">
-          <div class="blaze-container">
-            <div class="blaze-track-container">
-              <div class="blaze-track">
-                <div>
-                  <section class="home">
-                    <h1 style="opacity: 0">SyntaxSamurai</h1>
-                  </section>
-                </div>
-                <div>
-                  <section class="about">
-                    <h1>ABOUT SECTION</h1>
-                  </section>
-                </div>
-                <div>
-                  <section class="projects">
-                    <h1>PROJECTS SECTION</h1>
-                  </section>
-                </div>
-                <div>
-                  <section class="contact">
-                    <h1>CONTACT SECTION</h1>
-                  </section>
-                </div>
-              </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div id="link1" class="swiper-slide">
+              <section class="home">
+                <h1 style="opacity: 0">SyntaxSamurai</h1>
+              </section>
             </div>
-          </div>
+            <div id="link2" class="swiper-slide">
+              <section class="about">
+                <div>
+                  <div class="overlay">
+                    <img
+                      src="https://i.postimg.cc/PfQZkMdX/meme.jpg"
+                      alt="about me image"
+                    />
+                  </div>
+                  <p>
+                    Hello, I'm James Hansen 👋
+                    <br />
+                    <br />
+                    I'm a Full Stack Developer who enjoys building things that
+                    live on the internet.
+                    <br />
+                    <br />
 
-          <div class="controls">
-            <button class="blaze-prev">prev</button>
-            <div class="blaze-pagination"></div>
-            <button class="blaze-next">next</button>
+                    I like to code things from scratch and cultivate ideas that
+                    come to life in the browser.
+                    <br />
+                    I value simple content structure, clean design patterns and
+                    thoughtful interactions. I'm a software developer who
+                    specializes in building exceptional and accessible digital
+                    experiences. I'm 100% self taught, love to learn, and pick
+                    up skills very quickly. I've been coding for a few years,
+                    and it has been one of the most fulfilling and engaging
+                    experiences of my life!
+                    <br />
+                    <br />
+                    Whether I'm working with a difficult application, creating
+                    funky illustrations, or designing my next prototype, I see
+                    everything I do as a challenging opportunity for authentic
+                    creative self-expression. While programming, I get to use
+                    every creative bone in my body to try to motivate, entertain
+                    and inspire people.
+                    <br />
+                    <br />
+                    I'm quietly confident, naturally curious, and perpetually
+                    working on improving my chops one problem at a time. There’s
+                    nothing I enjoy more than designing/developing good websites
+                    and applications for people. It’s really that simple.
+                    <br />
+                    <br />
+                    When I'm not building stuff, I like doing:
+                    <br />
+                    <br />
+                    Calisthenics, Brazilian jiu-jitsu, drawing/painting, or
+                    exploring new places.
+                    <br />
+                    <br />
+                    Powered by VS Code and coffee.
+                  </p>
+                </div>
+              </section>
+            </div>
+            <div id="link3" class="swiper-slide">
+              <section class="projects">
+
+        <!-- Swiper2 -->
+
+                <div class="swiper swiper-container2">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide"><div class="card">
+                        <p>James Hansen Paintings</p>
+                        <a
+                          href="https://jameszenartist.github.io/jameshansenpaintings/index.html"
+                          target="_blank"
+                        >
+                          <img
+                            class="image"
+                            loading="lazy"
+                            src="https://i.postimg.cc/W145vLPL/paintings-website.jpg"
+                            alt="James Hansen's paintings website"
+                            width="400"
+                            height="463"
+                          />
+                        </a>
+                      </div></div>
+                      <div class="swiper-slide"><div class="card">
+                        <p>My First React Project <br />(Todo List)</p>
+                  
+                        <a
+                          href="https://github.com/jameszenartist/first-react-project"
+                          target="_blank"
+                        >
+                          <img
+                            class="image"
+                            loading="lazy"
+                            src="https://i.postimg.cc/mkC0bK88/react.png"
+                            alt="James Hansen's First React Todo List Project"
+                            width="400"
+                            height="463"
+                          />
+                        </a>
+                      </div></div>
+                      <div class="swiper-slide"><div class="card">
+                        <p>Quote Generator using Javascript</p>
+                        <a
+                          href="https://hardcore-goldstine-545ec5.netlify.app/?fbclid=IwAR1aUAMYTXIBZl2eFqGefmIe1FVNi5pUngd3h3nLjamcjxLvf3lEkY5bLQk"
+                          target="_blank"
+                        >
+                          <img
+                            class="image"
+                            loading="lazy"
+                            src="https://i.postimg.cc/G35vR8jJ/quote.jpg"
+                            alt="James Hansen's quote generator app"
+                            width="400"
+                            height="463"
+                          />
+                        </a>
+                      </div></div>
+                      <div class="swiper-slide"><div class="card">
+                        <p>Clock Project using Javascript</p>
+                  
+                        <a href="https://brave-mahavira-73821f.netlify.app/" target="_blank">
+                          <img
+                            class="image"
+                            loading="lazy"
+                            src="https://i.postimg.cc/65H49byL/clock.png"
+                            alt="James Hansen's Clock Project using Javascript"
+                            width="400"
+                            height="463"
+                          />
+                        </a>
+                      </div></div>
+                      <div class="swiper-slide"><div class="card">
+                        <p>Tic-Tac-Toe Game in React</p>
+                        <a href="https://elegant-williams-f16297.netlify.app/" target="_blank">
+                          <img
+                            class="image"
+                            loading="lazy"
+                            src="https://i.postimg.cc/0NqRWFzT/tictactoe.png"
+                            alt="James Hansen's tic-tac-toe app using react"
+                            width="400"
+                            height="463"
+                          />
+                        </a>
+                      </div></div>
+                      <div class="swiper-slide"><div class="card">
+                        <p>Calculator Project using Javascript</p>
+                        <a href="https://friendly-roentgen-228bce.netlify.app/" target="_blank">
+                          <img
+                            class="image"
+                            loading="lazy"
+                            src="https://i.postimg.cc/KYSR3f9H/calc.png"
+                            alt="James Hansen's calculator app using javascript"
+                            width="400"
+                            height="463"
+                          />
+                        </a>
+                      </div></div>
+                      <div class="swiper-slide"><div class="card">
+                        <p>Weather App with Node & Express</p>
+                        <a href="https://jhansen-weather-app.herokuapp.com/" target="_blank">
+                          <img
+                            class="image"
+                            loading="lazy"
+                            src="https://i.postimg.cc/dQNw92TG/weather.png"
+                            alt="James Hansen's Weather app using Node and Express"
+                            width="400"
+                            height="463"
+                          />
+                        </a>
+                      </div></div>
+                      <div class="swiper-slide"><div class="card">
+                        <p>Rock Paper Scissors Game in React</p>
+                        <a href="https://reverent-agnesi-64f8f6.netlify.app/" target="_blank">
+                          <img
+                            class="image"
+                            loading="lazy"
+                            src="https://i.postimg.cc/ncdF5YPR/rps.png"
+                            alt="James Hansen's Rock Paper Scissors game using React"
+                            width="400"
+                            height="463"
+                          />
+                        </a>
+                      </div></div>
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination2"></div>
+              </section>
+            </div>
+            <div id="link4" class="swiper-slide">
+              <!-- <section class="contact">
+                <h1>CONTACT SECTION</h1>
+              </section> -->
+              <section class="contact">
+                
+                <div>
+                  <div class="form-container">
+                    <p>
+                      Have a question or just want to say hi? Let’s talk!
+                      <br />
+                      I'll try my best to get back to you as soon as I can.
+                      <br />                      
+                      If you want to know more, please don't hesitate to ask!
+                      <br />
+                    </p>
+                    <br />
+          
+                    <form name="contact" method="POST" data-netlify="true">
+                      <div class="info">
+                        <div class="data">
+                        <label for="firstname">First name:</label>
+                        <input
+                          type="text"
+                          name="firstname"
+                          size="20"
+                          placeholder="Enter your first name"
+                          required
+                          aria-required="true"
+                        />
+            
+                        <label for="lastname">Last name:</label>
+                        <input
+                          type="text"
+                          name="lastname"
+                          size="20"
+                          placeholder="Enter your last name"
+                          required
+                          aria-required="true"
+                        />
+                        <label for="email">Email:</label>
+                        <input
+                          type="text"
+                          name="email"
+                          size="20"
+                          placeholder="Enter your email"
+                          required
+                          aria-required="true"
+                        />
+                      </div>
+                      <div class="text">
+                        <p>Any Comments or Suggestions?<br/>Please feel free to contact me via email or drop a line in the
+                          contact form:</p>
+                      
+                        <br />
+            
+                        <textarea
+                          name="comments"
+                          placeholder="Enter your comment here..."
+                        ></textarea>
+                        <br />
+                        <br />
+                        <button type="submit">Submit</button>
+                      </div>
+                    </div>
+                    </form>
+          
+                    <div class="contact-container">
+                      <div class="icons-container">
+                        <p>You can contact me using:</p>
+                        <div class="icons">
+                          <a
+                            href="https://www.facebook.com/jameszenartist"
+                            target="_blank"
+                            ><span><i class="fa fa-facebook fa-3x"></i></span
+                          ></a>
+                          <a href="https://twitter.com/JamesHa58376283" target="_blank"
+                            ><span><i class="fa fa-twitter fa-3x"></i></span
+                          ></a>
+                          <a
+                            href="https://www.instagram.com/jameszenartist/"
+                            target="_blank"
+                            ><span><i class="fa fa-instagram fa-3x"></i></span
+                          ></a>
+                          <a href="https://github.com/jameszenartist" target="_blank"
+                            ><span><i class="fa fa-github fa-3x"></i></span
+                          ></a>
+                          <a
+                            href="https://www.linkedin.com/in/jameshansen1981/"
+                            target="_blank"
+                            ><span><i class="fa fa-linkedin fa-3x"></i></span
+                          ></a>
+                        </div>
+                      </div>
+          
+                      <div class="icons-container">
+                        <p>Donations? Click HERE:</p>
+          
+                        <div class="donations">
+                          <div class="icons">
+                            <a
+                              class="gift"
+                              href="https://www.buymeacoffee.com/jameshansen1981?fbclid=IwAR350I6Pp1bnQHtdE62NzNOxle11x0bGZVXJNjXLJm00_SmmtHBhCOz1qhQ"
+                              target="_blank"
+                            >
+                              <span
+                                ><img
+                                  src="https://img.icons8.com/ios/50/03a062/coffee--v2.png"
+                                  alt="icons8 coffee animated png" /></span
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <p>
+                        Remotely available at: <br />
+                        <br />
+                        jameszenartist@gmail.com
+                        <br />
+                        <br />
+                        Current location: Bend, OR
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <footer>
-      <h5>Copyright © 2022, SyntaxSamurai</h5>
+    <footer class="footer">
+      <h5>Copyright © 2023, SyntaxSamurai</h5>
     </footer>
-    <!-- blazer library script -->
-    <script src="https://unpkg.com/blaze-slider@1.9.0-beta.2/dist/blaze-slider.min.js"></script>
-    <script src="./js/blazer.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (
+            index,
+            className = "link swiper-pagination-bullet"
+          ) {
+            let links = ["Home", "About", "Projects", "Contact"];
+
+            return (
+              '<li class="' +
+              className +
+              '"><p><a href="#' +
+              links[index] +
+              ' class="neon-button">' +
+              links[index] +
+              "</a></p></li>"
+            );
+          },
+        },
+      });
+
+      var swiper2 = new Swiper('.swiper-container2', {
+        slidesPerView: 1,
+        <!-- spaceBetween: 30, -->
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination2',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>

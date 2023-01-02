@@ -32,7 +32,7 @@
   list-style: none;
 }
 
-.neon-button {
+p a {
   display: inline-block;
   cursor: pointer;
   padding: 0.5em 0.5em;
@@ -41,13 +41,4 @@
   text-shadow: 0 0 0.125em #27ff27, 0 0 0.45em;
   box-shadow: inset 0 0 0.5em 0 #27ff27, 0 0 0.5em 0 #27ff27;
   position: relative;
-}
-
-.neon-button:hover {
-  color: rgba(3, 160, 98, 0.2);
-  transition: 100ms linear;
-}
-
-.neon-button:focus {
-  color: #27ff27;
 }

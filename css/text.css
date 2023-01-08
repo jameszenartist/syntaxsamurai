@@ -45,6 +45,16 @@ section {
   align-items: center;
 }
 
+#link1{
+  margin-top: 2rem;
+ 
+ }
+
+#link3{
+ height: auto !important;
+
+}
+
 .home h1 {
   font-size: 2rem;
 

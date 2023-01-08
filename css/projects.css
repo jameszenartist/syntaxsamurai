@@ -9,13 +9,7 @@
   padding: 2rem 0 4rem 0;
 }
 
-/* .card-container .row {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-} */
+
 
 .card {
   width: 40%;
@@ -23,7 +17,7 @@
   margin: 0.5rem;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .card p {

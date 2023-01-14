@@ -5,6 +5,8 @@
   width: 20%;
   height: auto;
   margin: 1rem;
+  display: flex;
+
 }
 
 .overlay img {

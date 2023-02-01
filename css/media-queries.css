@@ -9,16 +9,30 @@
       font-size: 0.9rem;
 
     }
+    .card {
+      width: 60%;
+      height: 70%;
+    }
+    div.swiper-button-prev{
+      left: 5% !important;
+    }
+
+    .swiper-button-next{
+      right: 10% !important;
+    }
   }
 
   @media only screen and (max-width: 1000px){
-  
+
     .overlay{
       width: 18%;
     }
 
     .about p{
       font-size: 0.85rem;
+    }
+    .card {
+      height: 60%;
     }
   }
 
@@ -29,12 +43,38 @@
     .about p{
       margin-top: 0;
     }
+    .card {
+      width: 70%;
+      height: 50%;
+    }
+
+    div.swiper-button-prev{
+      left: 0% !important;
+    }
+
+    .swiper-button-next{
+      right: 5% !important;
+    }
+
   }
 
   @media only screen and (max-width: 730px){
     .about p{
       font-size: 0.8rem;
     }
+
+    div.swiper-button-prev{
+      left: 0% !important;
+    }
+
+
+    .swiper-button-next{
+      right: 5% !important;
+    }
+    .swiper-container2 {
+      width: 70%;
+    }
+
   }
 
   @media only screen and (max-width: 620px){
@@ -47,6 +87,10 @@
     .about p{
       font-size: 0.75rem;
     }
+    .card {
+      height: 40%;
+    }
+
     .footer {
       font-size: 1rem;
     }
@@ -55,10 +99,29 @@
   @media only screen and (max-width: 570px){
     .overlay{
       width: 16%;
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .about {
+      margin: 0;
     }
     .about p{
       font-size: 0.7rem;
+      clear: left;
+      padding: 0 1rem;
     }
+
+.swiper-slide-active {
+  margin: 0 5%;
+}
+
+
+.swiper-button-next{
+  right: 0% !important;
+}
+
   }
 
   @media only screen and (max-width: 500px){
@@ -76,14 +139,87 @@
     .header{
       height: 8vh;
     }
+    .card p {
+      height: 15%;
+    }
+
+
     li p{
       font-size: 0.75rem;
     }
+    .swiper-slide-next {
+      margin: 0 10% !important;
+    }
   }
 
-  @media only screen and (max-width: 430px){
-   
-    .header{
-      height: 5vh;
+  @media only screen and (max-width: 435px){
+
+
+    .header {
+      height: 20vh;
     }
+        div.nav-list {
+          margin-top: 10%;
+          display: flex;
+          flex-direction: column;
+        }
+        div.nav-list li {
+          margin: 1.5rem !important;
+        }
+        .type-me {
+          margin-top: 1rem;
+        }
+
+        li p{
+          font-size: 0.8rem;
+        }
+        .about {
+          margin-top: 15%;
+
+        }
+        .overlay {
+          float: left;
+        }
+
+
+    .about p {
+      padding: 0.5rem 0.5rem;
+      clear: none;
+      font-size: 0.6rem;
+    }
+    .swiper-slide-next {
+      margin: 0 7% !important;
+    }
+
+
+
+  }
+
+  @media only screen and (max-width: 415px){
+    .about p {
+      padding: 0.25rem 0.25rem;
+    }
+    .swiper-slide-next {
+      margin: 0 20% !important;
+    }
+  }
+
+  @media only screen and (max-width: 390px){
+    .home h1 {
+      font-size: 1.25rem;
+    }
+    .about p {
+      line-height: 1;
+    }
+    .card p{
+      height: 20%;
+    }
+
+  }
+
+  @media only screen and (max-width: 375px){
+    .swiper-slide-next {
+      margin: 0 25% !important;
+    }
+
   }

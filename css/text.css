@@ -1,0 +1,106 @@
+:root {
+  --main-gn: #27ff27;
+}
+
+*,*:before,*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--main-gn);
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  place-items: center;
+  overflow: hidden;
+}
+
+body, .wrapper {
+  font-family: "Press Start 2P", cursive, sans-serif;
+  background-color: black;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  margin: 2rem 0;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#link1{
+  margin-top: 2rem;
+
+ }
+
+#link3{
+ height: auto !important;
+
+}
+
+.home h1 {
+  font-size: 2rem;
+
+}
+
+.type-me {
+  opacity: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 14ch;
+  border-right: 3px solid var(--main-gn);
+  animation: typing 4s steps(14), caret 1s steps(1) infinite;
+}
+
+section h2 {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+footer {
+  position: absolute;;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 10px 0;
+  border-top: 1px solid #27ff27;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 100;
+}

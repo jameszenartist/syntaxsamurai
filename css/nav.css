@@ -1,0 +1,44 @@
+.nav-container {
+  top: 0;
+  position: -webkit-sticky;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  margin-top: 20%;
+  width: 100%;
+  margin: auto;
+}
+
+.nav-list li p a {
+  text-align: center;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-list li {
+  font-size: 1.25rem;
+  margin: 1rem 0.5rem;
+  list-style: none;
+}
+
+p a {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5em 0.5em;
+  border: 3px solid rgba(3, 160, 98, 0.6);
+  border-radius: 2px;
+  text-shadow: 0 0 0.125em #27ff27, 0 0 0.45em;
+  box-shadow: inset 0 0 0.5em 0 #27ff27, 0 0 0.5em 0 #27ff27;
+  position: relative;
+}

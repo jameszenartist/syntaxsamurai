@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 node_modules
 .vscode
 text.scss
 notes.txt
 sections
+=======
+node_modules
+.vscode
+text.scss
+notes.txt
+
+sections
+
+swiper-styles.css
+swiper-test.html
+>>>>>>> version2

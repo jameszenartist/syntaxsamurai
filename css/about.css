@@ -1,0 +1,25 @@
+
+
+.overlay {
+  float: left;
+  width: 20%;
+  height: auto;
+  margin: 1rem;
+  display: flex;
+
+}
+
+.overlay img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-pixelated;
+  image-rendering: pixelated;
+}
+
+.about p {
+  margin-top: 5%;
+  word-wrap: break-word;
+}

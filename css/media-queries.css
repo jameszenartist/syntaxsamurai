@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1300px) {
+  .card {
+    width: 40%;
+    height: 50%;
+  }
+  .card p {
+    height: 15%;
+  }
+}
+
 @media only screen and (max-width: 1120px) {
   .about p {
     font-size: 0.9rem;
@@ -7,10 +17,7 @@
   .neon-button {
     font-size: 0.9rem;
   }
-  .card {
-    width: 60%;
-    height: 70%;
-  }
+
   div.swiper-button-prev {
     left: 5% !important;
   }
@@ -29,7 +36,8 @@
     font-size: 0.85rem;
   }
   .card {
-    height: 60%;
+    width: 60%;
+    height: 50%;
   }
 }
 
@@ -39,10 +47,6 @@
   }
   .about p {
     margin-top: 0;
-  }
-  .card {
-    width: 70%;
-    height: 50%;
   }
 
   div.swiper-button-prev {
@@ -68,7 +72,9 @@
 }
 
 @media only screen and (max-width: 730px) {
-  .about p,
+  .about p {
+    font-size: 0.8rem;
+  }
   .contact,
   div.data label,
   div.data input,
@@ -99,8 +105,9 @@
   .about p {
     font-size: 0.75rem;
   }
-  .card {
-    height: 40%;
+
+  .card p {
+    height: 20%;
   }
   div.data label {
     padding: 0.25rem;
@@ -150,6 +157,11 @@
   li p {
     font-size: 0.85rem;
   }
+
+  .card {
+    height: 40%;
+  }
+
   .fa-3x {
     font-size: 2.5rem;
   }
@@ -165,7 +177,9 @@
   }
 }
 @media only screen and (max-width: 470px) {
-  .about p,
+  .about p {
+    font-size: 0.6rem;
+  }
   .contact,
   div.data label,
   div.data input,
@@ -179,8 +193,9 @@
   .header {
     height: 8vh;
   }
+  .card,
   .card p {
-    height: 15%;
+    height: 30%;
   }
 
   li p {
@@ -223,8 +238,8 @@
   .about p {
     padding: 0.5rem 0.5rem;
     clear: none;
-    font-size: 0.6rem;
   }
+
   .swiper-slide-next {
     margin: 0 7% !important;
   }
@@ -264,9 +279,6 @@
   }
   .about p {
     line-height: 1;
-  }
-  .card p {
-    height: 20%;
   }
 }
 

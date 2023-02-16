@@ -79,7 +79,8 @@
   div.data label,
   div.data input,
   textarea,
-  .form-container form button {
+  .form-container form button,
+  button#resume {
     font-size: 0.9rem;
   }
 
@@ -184,7 +185,8 @@
   div.data label,
   div.data input,
   textarea,
-  .form-container form button {
+  .form-container form button,
+  button#resume {
     font-size: 0.8rem;
   }
   .home h1 {
@@ -248,7 +250,8 @@
   div.data label,
   div.data input,
   textarea,
-  .form-container form button {
+  .form-container form button,
+  button#resume {
     font-size: 0.6rem;
   }
   .contact {

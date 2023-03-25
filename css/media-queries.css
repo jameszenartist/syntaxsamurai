@@ -72,7 +72,8 @@
 }
 
 @media only screen and (max-width: 730px) {
-  .about p {
+  .about p,
+  .footer h5 {
     font-size: 0.8rem;
   }
   .contact,
@@ -178,7 +179,8 @@
   }
 }
 @media only screen and (max-width: 470px) {
-  .about p {
+  .about p,
+  .footer h5 {
     font-size: 0.6rem;
   }
   .contact,

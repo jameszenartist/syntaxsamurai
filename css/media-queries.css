@@ -84,6 +84,9 @@
   button#resume {
     font-size: 0.9rem;
   }
+  .form-container {
+    font-size: 0.8rem;
+  }
 
   div.swiper-button-prev {
     left: 0% !important;
@@ -133,11 +136,16 @@
   }
   .about {
     margin: 0;
+    overflow: auto;
   }
   .about p {
     font-size: 0.7rem;
     clear: left;
     padding: 0 1rem;
+  }
+
+  .form-container {
+    font-size: 0.7rem;
   }
 
   .swiper-slide-active {
@@ -264,6 +272,14 @@
   .contact {
     margin: 20% auto;
   }
+  .form-container {
+    font-size: 0.5rem;
+  }
+
+  .data input,
+  textarea {
+    padding: 0.6rem;
+  }
   a.gift span img {
     max-width: 80%;
     height: auto;
@@ -299,6 +315,9 @@
 }
 
 @media only screen and (max-width: 325px) {
+  .form-container {
+    padding: 0 1rem;
+  }
   .fa-3x {
     font-size: 1.75rem;
   }

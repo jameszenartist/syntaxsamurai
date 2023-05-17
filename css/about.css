@@ -1,12 +1,9 @@
-
-
 .overlay {
   float: left;
   width: 20%;
   height: auto;
   margin: 1rem;
   display: flex;
-
 }
 
 .overlay img {
@@ -22,4 +19,5 @@
 .about p {
   margin-top: 5%;
   word-wrap: break-word;
+  line-height: 1.25rem;
 }

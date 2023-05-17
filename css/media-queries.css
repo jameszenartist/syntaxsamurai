@@ -10,8 +10,7 @@
 
 @media only screen and (max-width: 1120px) {
   .about p {
-    font-size: 0.9rem;
-    line-height: 1.1;
+    font-size: 1.3vw;
   }
 
   .neon-button {
@@ -25,6 +24,9 @@
   .swiper-button-next {
     right: 10% !important;
   }
+  .contact p {
+    line-height: 2vh;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -33,20 +35,30 @@
   }
 
   .about p {
-    font-size: 0.85rem;
+    font-size: 1.3vw;
   }
+
   .card {
     width: 60%;
     height: 50%;
   }
+  .contact p,
+  input,
+  label,
+  input::placeholder,
+  textarea {
+    font-size: 1.5vw;
+    line-height: 2.3vh;
+  }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 880px) {
   li p {
     font-size: 0.95rem;
   }
   .about p {
     margin-top: 0;
+    font-size: 1.4vw;
   }
 
   div.swiper-button-prev {
@@ -59,10 +71,27 @@
   .contact {
     margin: 1rem auto;
   }
+  .form-container,
+  .text p,
+  .form-container p,
+  .data label,
+  form input,
+  input::placeholder,
+  textarea {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+  .data input {
+    padding: 0.75rem;
+  }
   textarea,
   .data input {
     width: 90%;
     margin: auto;
+  }
+  .form-container button,
+  div.text button {
+    font-size: 1rem;
   }
 
   .donations {
@@ -72,19 +101,7 @@
 }
 
 @media only screen and (max-width: 730px) {
-  .about p,
   .footer h5 {
-    font-size: 0.8rem;
-  }
-  .contact,
-  div.data label,
-  div.data input,
-  textarea,
-  .form-container form button,
-  button#resume {
-    font-size: 0.9rem;
-  }
-  .form-container {
     font-size: 0.8rem;
   }
 
@@ -107,9 +124,6 @@
   li p {
     font-size: 0.9rem;
   }
-  .about p {
-    font-size: 0.75rem;
-  }
 
   .card p {
     height: 20%;
@@ -119,6 +133,13 @@
   }
   .data input {
     margin: 0.5rem;
+  }
+  .contact p,
+  input,
+  label,
+  input::placeholder,
+  textarea {
+    font-size: 1.8vw;
   }
 
   .footer {
@@ -139,7 +160,8 @@
     overflow: auto;
   }
   .about p {
-    font-size: 0.7rem;
+    font-size: 1.5vw;
+    line-height: 2vh;
     clear: left;
     padding: 0 1rem;
   }
@@ -158,6 +180,16 @@
   .form-container {
     margin: 0 0.5rem;
   }
+  input {
+    padding: 0.5rem;
+  }
+  .contact p,
+  input,
+  label,
+  input::placeholder,
+  textarea {
+    font-size: 1.9vw;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -169,7 +201,6 @@
   }
 
   .about p {
-    font-size: 0.6rem;
     padding: 0 1rem;
   }
 
@@ -186,24 +217,42 @@
   textarea {
     overflow: hidden;
   }
+  .data input {
+    padding: 0.25rem 0.5rem;
+  }
+  .contact p,
+  input,
+  label,
+  input::placeholder,
+  textarea {
+    font-size: 1.9vw;
+    line-height: 2vh;
+  }
   a.gift span img {
     max-width: 100%;
     height: auto;
   }
 }
 @media only screen and (max-width: 470px) {
-  .about p,
   .footer h5 {
     font-size: 0.6rem;
+  }
+  .about p {
+    font-size: 1.6vw;
   }
   .contact,
   div.data label,
   div.data input,
   textarea,
-  .form-container form button,
-  button#resume {
-    font-size: 0.8rem;
+  textarea::placeholder,
+  .form-container {
+    font-size: 2.5vw;
   }
+  div.text button,
+  button#resume {
+    font-size: 2.8vw;
+  }
+
   .home h1 {
     font-size: 1.5rem;
   }
@@ -255,30 +304,29 @@
   .about p {
     padding: 0.5rem 0.5rem;
     clear: none;
+    font-size: 1.6vw;
+    line-height: 1.8vh;
   }
 
   .swiper-slide-next {
     margin: 0 7% !important;
   }
-  .about p,
-  .contact,
-  div.data label,
-  div.data input,
-  textarea,
-  .form-container form button,
-  button#resume {
-    font-size: 0.6rem;
-  }
+
   .contact {
     margin: 20% auto;
   }
-  .form-container {
-    font-size: 0.5rem;
+
+  .contact p,
+  input,
+  input::placeholder,
+  textarea {
+    font-size: 1.9vw;
+    line-height: 1.2vh;
   }
 
   .data input,
   textarea {
-    padding: 0.6rem;
+    padding: 0.5rem;
   }
   a.gift span img {
     max-width: 80%;
@@ -304,13 +352,23 @@
     font-size: 1.25rem;
   }
   .about p {
-    line-height: 1;
+    font-size: 1.7vw;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .swiper-slide-next {
     margin: 0 25% !important;
+  }
+  div.data input {
+    padding: 0.25rem 0.5rem;
+  }
+  .contact p,
+  input,
+  input::placeholder,
+  textarea {
+    font-size: 2vw;
+    line-height: 1vh;
   }
 }
 
@@ -320,5 +378,18 @@
   }
   .fa-3x {
     font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .about p {
+    font-size: 1.8vw;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .about p {
+    font-size: 2vw;
+    line-height: 1.5vh;
   }
 }

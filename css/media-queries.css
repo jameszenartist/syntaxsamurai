@@ -357,21 +357,43 @@
 }
 
 @media only screen and (max-width: 375px) {
+  li p {
+    font-size: 2.8vw;
+  }
   .swiper-slide-next {
     margin: 0 25% !important;
   }
   .about p {
     line-height: 1.5vh;
   }
+
+  div.data label {
+    font-size: 2vw;
+    padding: 0.2rem 0.5rem;
+  }
+
   div.data input {
-    padding: 0.25rem 0.5rem;
+    padding: 0.2rem 0.5rem;
+    margin: 0;
+  }
+  .contact {
+    margin: 15% auto;
+  }
+  textarea {
+    height: 5em;
   }
   .contact p,
   input,
   input::placeholder,
   textarea {
-    font-size: 2vw;
+    font-size: 1.8vw;
     line-height: 1vh;
+  }
+  .form-container form p {
+    line-height: 1.5vh;
+  }
+  .contact-container {
+    padding: 0;
   }
 }
 
